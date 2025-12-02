@@ -29,5 +29,5 @@ It creates two tables: `users` and `todos` and exposes basic API endpoints to in
 1. **Clone the repository**
 
 ```bash
-git clone < https://github.com/Niloynh/express_server.git>
-cd <express_server>
+git clone https://github.com/Niloynh/express_server.git
+cd express_server
