@@ -1,26 +1,32 @@
-# Express + Neon DB API
+# Express.js + NeonDB (PostgreSQL) CRUD API
 
-This is a simple **Express.js** server connected to **Neon PostgreSQL**.  
-It creates two tables: `users` and `todos` and exposes basic API endpoints to interact with them.
-
----
-
-## Features
-
-- Users table
-- Todos table (with `user_id` foreign key referencing users)
-- Express JSON API
-- Environment variables support (`.env`)
-- Postman-ready CRUD endpoints
+A complete Node.js backend built with **Express.js**, **TypeScript**, and **NeonDB** (serverless PostgreSQL).  
+This project includes full CRUD functionality for **Users** and **Todos**, along with automated database table creation.
 
 ---
 
-## Prerequisites
+## 🚀 Features
 
-- Node.js >= 18
-- npm
-- Neon PostgreSQL database
-- `.env` file in project root with database connection string
+### ✅ Database
+- Automatic table creation on startup
+- Neon serverless PostgreSQL connection using `pg`
+
+### 🧑‍💻 API Features
+- Full CRUD for **Users**
+- Full CRUD for **Todos** (with user relations)
+- Error handling & 404 fallback route
+- Logging middleware for requests
+- JSON body parsing
+
+---
+
+## 🔧 Tech Stack
+- Node.js
+- Express.js
+- TypeScript
+- PostgreSQL (NeonDB)
+- pg (node-postgres)
+- dotenv
 
 ---
 
